@@ -1,0 +1,75 @@
+{
+    "usuarios": {
+        "pk/rut_usuario": {
+            "nombre"            : "",
+            "apellido"          : "",
+            "contraseña"        : "",
+            "email"             : "",
+            "telefono"          : "",
+            "fecha_nacimiento"  : "",
+            "fecha_creacion"    : "",
+            "ultima_conexion"   : ""
+
+        }
+    },
+
+    "negocios" : {
+        "pk/rut_usuario": {
+            "pk/id_local": {
+                "nombre"    : "",
+                "tipo"      : "",
+                "direccion" : "",
+                "caracteristicas": {
+                    "cajavecina" : "",
+                    "recargabip" : "",
+                    "sencillito" : ""
+                },
+                "hora_atencion" : {
+                    "lunes"     : "",
+                    "martes"    : "",
+                    "miercoles" : "",
+                    "jueves"    : "",
+                    "viernes"   : "",
+                    "sabado"    : "",
+                    "domingo"   : ""
+                } 
+            }
+        }
+    },
+
+    "Inventario": {
+        "pk/id_local": {
+            "pk/id_producto": {
+                "nombre"         : "",
+                "marca"          : "",
+                "precio"         : "",
+                "categoria"      : "",
+                "disponibilidad" : ""
+            },
+
+            "stock":{
+                "nombre": "",
+                "cantidad": ""
+            }
+        }
+    },
+
+
+    "Ubicacion": {
+        "pk/id_local": {
+            "latitud"   : "",
+            "longitud"  : ""
+        }
+    },
+
+
+
+    "Extra_data": {
+        "pk/id_local": {
+            "visitas": "",
+            "valoracion": {
+                "id/rut_usuario": ""
+            }
+        }
+    }
+}
